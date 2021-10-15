@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ng-wheel-rotate": [
+        "dist/ng-wheel-rotate/ng-wheel-rotate",
+        "dist/ng-wheel-rotate"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
