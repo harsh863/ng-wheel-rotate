@@ -76,8 +76,8 @@ export class NgWheelRotateDirective implements OnInit, OnDestroy {
       WheelRotateAxis.VERTICAL :
       WheelRotateAxis.HORIZONTAL;
 
-    const source: WheelSource = (axis === WheelRotateAxis.VERTICAL) ?
-      ( Number.isInteger(event.deltaY) ? WheelSource.MOUSE : WheelSource.TOUCHPAD ) :
+    const source: WheelSource = (axis === WheelRotateAxis.VERTICAL) && Number.isInteger(deltaY) && Math.abs(deltaY) >= 40 ?
+      WheelSource.MOUSE :
       WheelSource.TOUCHPAD;
 
     const direction: WheelDirection = Math.abs(deltaX) !== 0 ?
