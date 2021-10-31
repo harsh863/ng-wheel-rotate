@@ -23,8 +23,8 @@ import {NgWheelRotateModule} from "ng-wheel-rotate";
 
 @NgModule({
   ...
-  imports: [ NgWheelRotateModule, ... ],
-  ...
+    imports: [ NgWheelRotateModule, ... ],
+...
 })
 ```
 
@@ -32,7 +32,7 @@ import {NgWheelRotateModule} from "ng-wheel-rotate";
 ```angular2html
 <div ngWheelRotate
      [debounce]="<DEBOUNCE_TIME(in milliseconds, default = 0)>"
-     [delay]="<DELAY_TIME(in milliseconds, default = 0)>" 
+     [delay]="<DELAY_TIME(in milliseconds, default = 0)>"
      [disabled]="<LISTEN_EVENTS_OR_NOT(boolean, default = false)>"
      [activeAxis]="<LISTEN_EVENTS_OF_SPECIFIC_AXIS(WheelRotateAxis, default = WheelRotateAxis.BOTH )>"
      (onWheelRotate)="onWheelRotate($event)">
@@ -88,7 +88,7 @@ enum WheelRotateAxis {
 
 **[Harsh Mittal](https://github.com/harsh863/)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-mittal-516706184/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh863/)
 [![StackOverflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/12774193/harsh-mittal)
 [![DEV](https://img.shields.io/badge/DEV-%23000000.svg?logo=dev.to&logoColor=white)](https://dev.to/harsh863)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=facebook&logoColor=white)](https://www.facebook.com/harsh.mittal.92351995)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=facebook&logoColor=white)](https://www.facebook.com/harsh863)
