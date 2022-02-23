@@ -32,7 +32,7 @@ import {NgWheelRotateModule} from "ng-wheel-rotate";
 ```angular2html
 <div ngWheelRotate
      [debounce]="<DEBOUNCE_TIME(in milliseconds, default = 0)>"
-     [delay]="<DELAY_TIME(in milliseconds, default = 0)>" 
+     [delay]="<DELAY_TIME(in milliseconds, default = 0)>"
      [disabled]="<LISTEN_EVENTS_OR_NOT(boolean, default = false)>"
      [activeAxis]="<LISTEN_EVENTS_OF_SPECIFIC_AXIS(WheelRotateAxis, default = WheelRotateAxis.BOTH )>"
      (onWheelRotate)="onWheelRotate($event)">
