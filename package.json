@@ -9,6 +9,10 @@
     "test": "ng test",
     "publish": "cd projects/ng-wheel-rotate && npm version patch && cd ../../ && npm run build && cd dist/ng-wheel-rotate && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://www.npmjs.com/package/ng-wheel-rotate"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",

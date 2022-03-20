@@ -1,9 +1,13 @@
 {
   "name": "ng-wheel-rotate",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.npmjs.com/package/ng-wheel-rotate"
   },
   "dependencies": {
     "tslib": "^2.3.0"
